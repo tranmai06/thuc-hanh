@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2, h3, h4 {
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
+}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size: 16px;color: #666666;margin: 0
+}
+header{
+	width: 100%;height: 60px; background-color: #D7D7D7; border-bottom: 1px solid darkred; 
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none;display: flex
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none; font-size: 17px; text-transform: uppercase; color: #434343; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+	height: 12px; }	
+	
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#A9A9A9;
+      text-decoration: none; 
+}
+aside{
+	width: 100%;min-height: 300px
+}
+main{
+	width: 100%;min-height: 300px
+}
+.text-do{
+	color: darkred
+}
+aside ul{
+	list-style: none;margin: 0;padding: 0;display: flex;flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #C0C0C0
+}
+aside ul li a{
+	text-decoration: none; padding: 10px; display: block;color: #646464
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+}
+.text-center{
+	font-size: 12px; text-align: center
+}
+footer{
+	width: 100%;min-height: 200px;background-color: #CDCDCD; 
+}
+footer a{
+	color: #575757
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	background-color: #1CA8FF
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	display: block;padding: 10px; text-decoration: none;color: white
+}
+.text-den{
+	color: black;font-size: 14px
+}
